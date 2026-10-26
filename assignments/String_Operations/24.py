@@ -1,0 +1,7 @@
+'''Extract only digits from a string. 
+'''
+
+username = "rushikesh0809"
+for i in username:
+    if i.isdigit():
+        print(i, end="")

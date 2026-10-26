@@ -1,0 +1,4 @@
+''' Print all odd numbers between 1 and 50.'''
+for i in range(0,50,1):
+    if i % 2 != 0:
+      print(i)
